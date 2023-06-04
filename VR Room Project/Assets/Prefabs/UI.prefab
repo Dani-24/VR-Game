@@ -21699,6 +21699,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  canvasCode: {fileID: 4900000, guid: 5110b8441fc2821469f4d4f154eb9cae, type: 3}
 --- !u!114 &8869714632473636782
 MonoBehaviour:
   m_ObjectHideFlags: 0
