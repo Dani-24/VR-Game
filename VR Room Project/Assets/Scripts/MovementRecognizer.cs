@@ -34,22 +34,6 @@ public class MovementRecognizer : MonoBehaviour
 
     private void Start()
     {
-        //if (!Application.isEditor)
-        //{
-        //    // BUILD
-        //    TextAsset xmlAsset = Resources.Load<TextAsset>("o.xml");
-        //    trainingSet.Add(GestureIO.ReadGestureFromFile(xmlAsset.ToString()));
-        //}
-        //{
-        //    // NOT BUILD
-        //    string[] gestureFiles = Directory.GetFiles(Application.persistentDataPath, "*.xml");
-
-        //    foreach (var item in gestureFiles)
-        //    {
-        //        trainingSet.Add(GestureIO.ReadGestureFromFile(item));
-        //    }
-        //}
-
         trainingSet.Add(GestureIO.ReadGestureFromXML(canvasCode.ToString()));
     }
 
