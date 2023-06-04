@@ -7,18 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material
-    second: {fileID: 2100000, guid: 7fc658295c3b00b46a260327cecaee0f, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: glow
-    second: {fileID: 2100000, guid: e88fbd6bb9d195149bc1a77394d93596, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: water
-    second: {fileID: 2100000, guid: ef4c7461f96b6b04a929bb677fe279cc, type: 2}
+      name: lambert2
+    second: {fileID: 2100000, guid: 088c01f0a423b704f8e713b353789a4d, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
