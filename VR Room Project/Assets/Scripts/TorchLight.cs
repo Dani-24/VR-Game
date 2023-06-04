@@ -20,7 +20,7 @@ public class TorchLight : MonoBehaviour
             sfx.Play();
 
             //other.gameObject.SetActive(false);
-            gameObject.SetActive(false);
+           // gameObject.SetActive(false);
             gameObject.transform.GetChild(0).gameObject.SetActive(true);
         }
 
