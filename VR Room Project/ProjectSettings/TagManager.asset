@@ -7,6 +7,11 @@ TagManager:
   - Key
   - Torch
   - Ground
+  - PRed
+  - PGreen
+  - PBlue
+  - Minutos
+  - Hora
   layers:
   - Default
   - TransparentFX
