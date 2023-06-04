@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Key
   - Torch
+  - Ground
   layers:
   - Default
   - TransparentFX

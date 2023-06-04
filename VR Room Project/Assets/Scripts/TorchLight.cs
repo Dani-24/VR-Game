@@ -7,6 +7,7 @@ public class TorchLight : MonoBehaviour
     // Start is called before the first frame update
 
     [SerializeField] private AudioSource sfx;
+    public bool activedChild = false;
     void Start()
     {
         
@@ -15,8 +16,9 @@ public class TorchLight : MonoBehaviour
    
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Torch")
+        if (other.gameObject.tag == "Torch" && !activedChild )
         {
+            activedChild = true;
             sfx.Play();
 
             //other.gameObject.SetActive(false);
