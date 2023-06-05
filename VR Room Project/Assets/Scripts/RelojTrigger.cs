@@ -6,6 +6,7 @@ public class RelojTrigger : MonoBehaviour
 {
     public string desiredTag;
     public bool isTriggered;
+   
 
     private void OnTriggerEnter(Collider other)
     {

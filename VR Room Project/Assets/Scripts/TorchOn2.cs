@@ -8,16 +8,7 @@ public class TorchOn2 : MonoBehaviour
     [SerializeField] private AudioSource sfx;
     private bool activedChild = false;
     private bool uwu = true;
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 
     private void OnTriggerEnter(Collider other)
     {

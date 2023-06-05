@@ -8,7 +8,7 @@ public class StoneToSphere : MonoBehaviour
 {
     // Start is called before the first frame update
     [SerializeField] private AudioSource sfx;
-    private bool stoned = false;
+    public bool stoned = false;
     void Start()
     {
         

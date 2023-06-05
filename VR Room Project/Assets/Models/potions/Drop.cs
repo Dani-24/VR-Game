@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Drop : MonoBehaviour
 {
+    [SerializeField] private AudioSource sfx;
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Caldero")
@@ -54,11 +55,13 @@ public class Drop : MonoBehaviour
                             }
                         }
 
-                        //if (totalCounts == totalMax) 
-                        //{
-                        //    GameObject.Find("Piedritas").gameObject.GetComponent<ActiveStones>().ActiveStone();
-                        //}
-                        GameObject.Find("Piedritas").gameObject.GetComponent<ActiveStones>().ActiveStone();
+                        if (totalCounts == totalMax)
+                        {
+                            sfx.Play(); 
+                            GameObject.Find("Piedritas").gameObject.GetComponent<ActiveStones>().ActiveStone();
+                            GameObject.Find("SFXpuzle").gameObject.GetComponent<AudioSource>().Play();
+                        }
+                       //> GameObject.Find("Piedritas").gameObject.GetComponent<ActiveStones>().ActiveStone();
                     }
                     else
                     {
