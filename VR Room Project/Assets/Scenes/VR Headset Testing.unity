@@ -5257,50 +5257,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1625819927, guid: ef4ae9c70ef6457408d1df74fc37ac8c, type: 3}
-      propertyPath: m_ValidColorGradient.key0.a
-      value: 0.19607843
-      objectReference: {fileID: 0}
-    - target: {fileID: 1625819927, guid: ef4ae9c70ef6457408d1df74fc37ac8c, type: 3}
-      propertyPath: m_ValidColorGradient.key1.a
-      value: 0.78431374
-      objectReference: {fileID: 0}
-    - target: {fileID: 1625819927, guid: ef4ae9c70ef6457408d1df74fc37ac8c, type: 3}
-      propertyPath: m_ValidColorGradient.key1.g
-      value: 0.9721349
-      objectReference: {fileID: 0}
-    - target: {fileID: 1625819927, guid: ef4ae9c70ef6457408d1df74fc37ac8c, type: 3}
-      propertyPath: m_ValidColorGradient.key1.r
-      value: 0.5896226
-      objectReference: {fileID: 0}
-    - target: {fileID: 1625819927, guid: ef4ae9c70ef6457408d1df74fc37ac8c, type: 3}
-      propertyPath: m_InvalidColorGradient.key0.a
-      value: 0.19607843
-      objectReference: {fileID: 0}
-    - target: {fileID: 2024457444, guid: ef4ae9c70ef6457408d1df74fc37ac8c, type: 3}
-      propertyPath: m_ValidColorGradient.key0.a
-      value: 0.19607843
-      objectReference: {fileID: 0}
-    - target: {fileID: 2024457444, guid: ef4ae9c70ef6457408d1df74fc37ac8c, type: 3}
-      propertyPath: m_ValidColorGradient.key1.a
-      value: 0.78431374
-      objectReference: {fileID: 0}
-    - target: {fileID: 2024457444, guid: ef4ae9c70ef6457408d1df74fc37ac8c, type: 3}
-      propertyPath: m_ValidColorGradient.key1.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2024457444, guid: ef4ae9c70ef6457408d1df74fc37ac8c, type: 3}
-      propertyPath: m_ValidColorGradient.key1.g
-      value: 0.9721349
-      objectReference: {fileID: 0}
-    - target: {fileID: 2024457444, guid: ef4ae9c70ef6457408d1df74fc37ac8c, type: 3}
-      propertyPath: m_ValidColorGradient.key1.r
-      value: 0.5896226
-      objectReference: {fileID: 0}
-    - target: {fileID: 2024457444, guid: ef4ae9c70ef6457408d1df74fc37ac8c, type: 3}
-      propertyPath: m_InvalidColorGradient.key0.a
-      value: 0.19607843
-      objectReference: {fileID: 0}
     - target: {fileID: 2326152349665399926, guid: ef4ae9c70ef6457408d1df74fc37ac8c, type: 3}
       propertyPath: m_Name
       value: VR Player
