@@ -7,6 +7,7 @@ public class TorchOn2 : MonoBehaviour
     // Start is called before the first frame update
     [SerializeField] private AudioSource sfx;
     private bool activedChild = false;
+    private bool uwu = true;
     void Start()
     {
         
@@ -20,7 +21,7 @@ public class TorchOn2 : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Torch" && other.gameObject.GetComponent<TorchLight>().activedChild && !activedChild)
+        if (other.gameObject.tag == "Torch" && other.gameObject.transform.GetChild(0).gameObject.activeInHierarchy && !activedChild)
         {
             sfx.Play();
             activedChild = true;

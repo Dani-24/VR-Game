@@ -12,6 +12,7 @@ TagManager:
   - PBlue
   - Minutos
   - Hora
+  - Torch2
   layers:
   - Default
   - TransparentFX
