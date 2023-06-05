@@ -11,9 +11,12 @@ public class GenerateDrops : MonoBehaviour
     [SerializeField] private float dropSeconds;
     private float timer;
 
-    Vector3 downDirection;
-    Vector3 objectDirection;
+    private Vector3 downDirection;
+    private Vector3 objectDirection;
 
+    public int dropMax;
+    public int dropCount;
+    public bool isReset;
 
     void Start() 
     {
@@ -35,20 +38,12 @@ public class GenerateDrops : MonoBehaviour
             if (timer > dropSeconds) 
             {
                 Transform dropInstance = Instantiate(drop, dropSpawner.position, dropSpawner.rotation, dropSpawner);
-               // dropInstance.parent = dropSpawner.transform;
-                //   dropInstance.localScale = 
-                //  dropInstance.parent = dropSpawner.transform;
                 timer = 0.0f;
             }
-            
-            // El objeto está mirando hacia abajo
-            Debug.Log("El objeto está mirando hacia abajo.");
         }
         else
         {
             timer = 0.0f;
-            // El objeto no está mirando hacia abajo
-            Debug.Log("El objeto no está mirando hacia abajo.");
         }
     }
 }

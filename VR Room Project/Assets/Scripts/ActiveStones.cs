@@ -16,7 +16,7 @@ public class ActiveStones : MonoBehaviour
         
     }
 
-    void ActiveStone()
+    public void ActiveStone()
     {
         for (int i = 0; i < gameObject.transform.childCount; i++)
         {
