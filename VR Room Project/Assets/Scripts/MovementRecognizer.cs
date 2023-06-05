@@ -32,6 +32,8 @@ public class MovementRecognizer : MonoBehaviour
 
     public TextAsset canvasCode;
 
+    public float drawingDuration = 2f;
+
     private void Start()
     {
         trainingSet.Add(GestureIO.ReadGestureFromXML(canvasCode.ToString()));
@@ -65,7 +67,7 @@ public class MovementRecognizer : MonoBehaviour
 
         if (drawingObjectPrefab)
         {
-            Destroy(Instantiate(drawingObjectPrefab, movementSource.position, Quaternion.identity),2f);
+            Destroy(Instantiate(drawingObjectPrefab, movementSource.position, Quaternion.identity),drawingDuration);
         }
     }
 
