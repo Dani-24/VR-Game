@@ -19,7 +19,7 @@ public class Drop : MonoBehaviour
                     {
                         anim.SetTrigger("Reset");
                     }
-                    Transform potionsParent = transform.parent.parent.parent;
+                    Transform potionsParent = GameObject.Find("Potions").transform;
                     foreach (Transform potion in potionsParent) 
                     {
                         GenerateDrops potionDrops = potion.GetComponent<GenerateDrops>();
@@ -40,7 +40,7 @@ public class Drop : MonoBehaviour
                             anim.SetTrigger("Good");
                         }
 
-                        Transform potionsParent = transform.parent.parent.parent;
+                        Transform potionsParent = GameObject.Find("Potions").transform;
 
                         int totalCounts = 0;
                         int totalMax = 0;
@@ -57,7 +57,7 @@ public class Drop : MonoBehaviour
 
                         if (totalCounts == totalMax)
                         {
-                            sfx.Play(); 
+                            //sfx.Play(); 
                             GameObject.Find("Piedritas").gameObject.GetComponent<ActiveStones>().ActiveStone();
                             GameObject.Find("SFXpuzle").gameObject.GetComponent<AudioSource>().Play();
                         }

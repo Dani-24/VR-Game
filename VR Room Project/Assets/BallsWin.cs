@@ -4,13 +4,7 @@ using UnityEngine;
 
 public class BallsWin : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+    public GameObject UIToCreate;
     void Update()
     {
         
@@ -18,7 +12,7 @@ public class BallsWin : MonoBehaviour
         if(gameObject.transform.GetChild(0).gameObject.GetComponent<StoneToSphere>().stoned &&gameObject.transform.GetChild(1).gameObject.GetComponent<StoneToSphere>().stoned &&gameObject.transform.GetChild(2).gameObject.GetComponent<StoneToSphere>().stoned )
         {
             GameObject.Find("SFXpuzle").gameObject.GetComponent<AudioSource>().Play();
-            GameObject.Find("Win_UI").SetActive(true);
+            UIToCreate.SetActive(true);
         }
 
             
