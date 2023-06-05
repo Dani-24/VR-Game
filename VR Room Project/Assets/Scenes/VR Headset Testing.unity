@@ -5257,6 +5257,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1134328510, guid: ef4ae9c70ef6457408d1df74fc37ac8c, type: 3}
+      propertyPath: m_Size.y
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 2326152349665399926, guid: ef4ae9c70ef6457408d1df74fc37ac8c, type: 3}
       propertyPath: m_Name
       value: VR Player
